@@ -1,0 +1,17 @@
+.titlu {
+    padding: 60px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
